@@ -6,7 +6,10 @@ target 'expenditure-tracker' do
   use_frameworks!
 
   # Pods for expenditure-tracker
-
+  pod 'TesseractOCRiOS', '4.0.0'
+  pod 'SwiftLint'
+  pod 'GoogleSignIn'
+  
   target 'expenditure-trackerTests' do
     inherit! :search_paths
     # Pods for testing
